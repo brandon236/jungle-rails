@@ -73,6 +73,16 @@ main section.categories-show {
   }
 }
 
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+}
+
+#order_name {
+  font-size: 16px;
+  color: darkred;
+}
+
 main section.products-show {
   .product-detail {
     img.main-img {
